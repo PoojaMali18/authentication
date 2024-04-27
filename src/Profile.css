@@ -1,0 +1,54 @@
+::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+  }
+  .profile-container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 1rem; /* Padding for spacing */
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none; /* No underline */
+    margin-right: 1rem; /* Space between links */
+  }
+  
+  .profile-content {
+    color: white;
+    text-align: center;
+    width: 90%; /* Limit the width to avoid scrolling */
+    max-width: 600px; /* Limit the maximum width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .profile-content h2 {
+    font-size: 2rem; /* Larger header text */
+  }
+  
+  .profile-content p {
+    font-size: 1.5rem; /* Larger paragraph text */
+  }
+  
+  .profile-content button {
+    font-size: 1.2rem;
+    padding: 1rem; 
+    background: white; /* White background for button */
+    color: black; /* Black text for contrast */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
