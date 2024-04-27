@@ -1,13 +1,13 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
-import '../style.css'; // Import CSS for styling
+import '../style.css'; 
 
 const Signup = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState(''); // New state for confirming password
+  const [confirmPassword, setConfirmPassword] = useState(''); 
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
@@ -22,7 +22,7 @@ const Signup = () => {
       return;
     }
 
-    if (password !== confirmPassword) { // Check if password matches confirmPassword
+    if (password !== confirmPassword) { 
       setError("Passwords don't match");
       return;
     }

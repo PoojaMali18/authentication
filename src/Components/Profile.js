@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
-import '../Profile.css'; // Import CSS for styling
+import '../Profile.css'; 
 
 const Profile = () => {
   const { user, logout } = useContext(UserContext);
